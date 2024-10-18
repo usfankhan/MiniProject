@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="login">
+        <h1>Login</h1>
+        <form method="post" action="register.php">
+            
+            <div>
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email-input" placeholder="Email Id" required>
+                <label for="email">Email Id</label>
+            </div>            
+              
+            <div>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password-input" placeholder="Password" required>
+                <label for="email">Password</label>
+                
+             </div>
+        
+              
+              
+              <a href="homepage.html"><input type="Login" class="btn" value="Login" name="Login"></a>
+            </form>
+              
+             <center>
+               
+              <p>Don't Have an account? <a href="index.html">Sign UP</a>
+              </p>
+              
+          ---------------------or------------------------
+          <div class="icons"> 
+          <i class="fab fa-google"></i>
+          <i class="fab fa-facebook"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
